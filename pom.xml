@@ -9,6 +9,11 @@
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
+      <groupId>com.github.hypfvieh</groupId>
+      <artifactId>bluez-dbus</artifactId>
+      <version>0.1.4</version>
+    </dependency>
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.13.1</version>

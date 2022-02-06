@@ -9,7 +9,10 @@
             "stopOnEntry": false,
             "mainClass": "com.mycompany.app.App",
             "args": "",
-            "projectName": "my-app"
+            "projectName": "my-app",
+            "env": {
+                "DBUS_SESSION_BUS_ADDRESS": "tcp:host=localhost,port=12434"
+            }
         }
     ]
 }
