@@ -18,7 +18,7 @@
 	},
 
 	"mounts": [
-		"/run/dbus/:/run/dbus/"
+		"type=bind,source=/run/dbus/,target=/run/dbus/"
 	],
 
 	// Set *default* container specific settings.json values on container create.
